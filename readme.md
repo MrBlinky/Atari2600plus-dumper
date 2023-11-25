@@ -9,19 +9,19 @@ You can solder male to male jumper wires directly to the pads or cut off one of 
 ![I/O board Serial header](https://github.com/MrBlinky/Atari2600plus-dumper/blob/main/images/atari-2600-plus-serial-header.jpg)
 ## Running the dumper tool
 
-The dumper tool is a python script to run it, open a commandline window and when no Python installed on your computer (or you don't know) enter:
+The dumper tool is a python script. To run it, open a commandline window. When no Python is installed on your computer (or you don't know) enter:
 
 ```
 dump2600p comport
 ```
 
-or when Python is installed with pySerial on your computer you can run the script directly by entering:
+or when Python is installed with pySerial on your computer, you can run the script directly by entering:
 
 ```
 dump2600p.py comport
 ```
 
-comport is the name of the serial port of the FTDI cable. To find out which serial port is used by the FTDI cable go to device manager and check under ports which com port is added when you insert the cable into the computer.
+comport is the name of the serial port of the FTDI cable. To find out which serial port is used by the FTDI cable, go to device manager and check under ports which com port is added when you insert the cable into the computer.
 
 After entering one of the above commands the dumper will run continiously and wait for the 2600+ to detect a cart.
 When a cart is succesfully detected it is dumped and saved to the romdump directory located in the same folder as the script.
