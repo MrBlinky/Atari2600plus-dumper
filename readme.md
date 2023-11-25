@@ -28,6 +28,10 @@ When a cart is succesfully detected it is dumped and saved to the romdump direct
 Once a cart is dumped you can pull the cart and insert another cart to dump (hot swap) or power off before inserting another cart and switching power back on.
 To exit the dumper press CTRL+C or close the window.
 
+Notes:
+- The script should also work on Linux and OSX. Python3 with PySerial must be installed and the script should be run from the terminal.
+- Only carts that are supported by the Atari2600+ can be dumped .
+
 ## FTDI cable
 
 The FTDI cable is a USB to Serial converter which allows for a simple way to connect serial (UART) devices to USB.
