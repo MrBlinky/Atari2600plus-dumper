@@ -6,7 +6,8 @@ To hook up this cable, connect GND and Tx of the I/O boards serial header to the
 The The serial header on the Atari 2600+ I/O board has no pin header soldered to the board so you will have t solder your some jumper wires or a pin header to the board.
 You can solder male to male jumper wires directly to the pads or cut off one of the ends and solder the wire to the pad. Whichever is easier to do.
 
-#Running the dumper tool
+![I/O board Serial header](https://github.com/MrBlinky/Atari2600plus-dumper/blob/main/images/atari-2600-plus-serial-header.jpg)
+## Running the dumper tool
 
 The dumper tool is a python script to run it, open a commandline window and when no Python installed on your computer (or you don't know) enter:
 
@@ -23,7 +24,7 @@ When a cart is succesfully detected it is dumped and saved to the romdump direct
 Once a cart is dumped you can pull the cart and insert another cart to dump (hot swap) or power off before inserting another cart and switching power back on.
 To exit the dumper press CTRL+C or close the window.
 
-#FTDI cable
+## FTDI cable
 
 The FTDI cable is a USB to Serial converter which allows for a simple way to connect serial (UART) devices to USB.
 It is called a FTDI cable because it uses an FTDI chip. There are many similar (clone) cables and also modules available
@@ -31,3 +32,5 @@ that convert serial to USB.
 
 Whichever cable or module you have or will use make sure the drivers are installed and the device is visible in device manager.
 Also double check the pinout of your cable or module as clone cables and modules do not always use the same pinout.
+
+![FTDI cable](https://github.com/MrBlinky/Atari2600plus-dumper/blob/main/images/atari-2600-plus-ftdi-cable.jpg)
