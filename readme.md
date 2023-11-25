@@ -11,11 +11,15 @@ You can solder male to male jumper wires directly to the pads or cut off one of 
 
 The dumper tool is a python script to run it, open a commandline window and when no Python installed on your computer (or you don't know) enter:
 
+```
 dump2600p comport
+```
 
 or when Python is installed with pySerial on your computer you can run the script directly by entering:
 
+```
 dump2600p.py comport
+```
 
 comport is the name of the serial port of the FTDI cable. To find out which serial port is used by the FTDI cable go to device manager and check under ports which com port is added when you insert the cable into the computer.
 
