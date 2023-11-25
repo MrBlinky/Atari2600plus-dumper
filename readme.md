@@ -42,6 +42,7 @@ Whichever cable or module you have or will use make sure the drivers are install
 Also double check the pinout of your cable or module as clone cables and modules do not always use the same pinout.
 
 Note:
-If you want to use a FTDI cable with a stereo audio jack so you can connect it to an audio jack connector built into the 2600+ shell, I recommend to get a 2.5mm one and not a 3.5mm one because you don't want someone accidentally insert an original Atari power supply. Feeding 9V into the I/O board will most likely damage your 2600+.
+
+If you want to use a FTDI cable with a stereo audio jack so you can connect it to an audio jack connector built into the 2600+ shell, I recommend to get one with a a 2.5mm jack and not one with a 3.5mm jack because you don't want someone accidentally insert an original Atari 2600 power supply. Feeding 9V into the I/O board will most likely damage your 2600+.
 
 ![FTDI cable](https://github.com/MrBlinky/Atari2600plus-dumper/blob/main/images/atari-2600-plus-ftdi-cable.jpg)
